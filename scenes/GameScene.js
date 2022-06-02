@@ -5,7 +5,7 @@ class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spirtesheet( player, 'assets/images/player.png', {frameWidth: 48, frameHeight: 38, endFrame: -1});
+        this.load.spritesheet( player, 'assets/images/player.png', {frameWidth: 48, frameHeight: 38, endFrame: -1});
         this.load.json('shapes', 'assets/images/idle.json');
 
     }
