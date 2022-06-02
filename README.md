@@ -1,1 +1,1 @@
-# Just Another Game
+# Just Another Random Game
